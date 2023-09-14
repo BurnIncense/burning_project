@@ -4,6 +4,7 @@
   "main": "builder.js",
   "author": "BurnIncense",
   "license": "MIT",
+  "proxy": "http://localhost:8080",
   "scripts": {
     "pre-commit": "lint-staged",
     "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings=0",
